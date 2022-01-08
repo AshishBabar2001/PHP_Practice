@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img class="Nature" src="Nature Photos.jpg" alt="Nature Photo">
+    <div class="con">
+        <h1>Welcome To Travel Form </h1>
+        <p>Enter Your Details to Confirm your Praticipating in The Trip.</p>
+        <p class="SubMsg">Thanks For Submitting Your Form.</p>
+        <script src="index.js"></script>
+
+        <form action="index.php" method="post">
+            <input type="name" class="name" id="name" placeholder="Enter Your Name">
+            <input type="age" class="age" id="age" placeholder="Enter Your Age">
+            <input type="gender" class="gender" id="gender" placeholder="Enter Your gender">
+            <input type="email" class="email" id="email" placeholder="Enter Your email">
+            <input type="phone" class="phone" id="phone" placeholder="Enter Your Phone">
+            <textarea name="other" id="other" cols="30" rows="10" placeholder="Enter Description "></textarea>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
+<!-- INSERT INTO `travel` (`sno`, `name`, `age`, `gender`, `email`, `phone`, `other`, `date`) VALUES ('3', 'sadh', '12', '', '', '', '', current_timestamp()); -->
